@@ -1,0 +1,18 @@
+{
+  "name": "repos",
+  "version": "1.0.0",
+  "description": "Micro serviço retorna lista de repositórios de um usuário no Github",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro"
+  },
+  "author": "Alexandre Junqueira <afjunqueira@gmail.com> (https://alexandrejunqueira.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "~9.3.2"
+  },
+  "repos": {
+	"username": "alexandrejunqueira",
+	"duration": "10"
+  }
+}
