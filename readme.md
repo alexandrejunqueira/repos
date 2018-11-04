@@ -1,10 +1,6 @@
 # repos
 
-Fiz este micro serviço para exibir no meu [site](https://alexandrejunqueira.com) estático a lista dos meus repositórios públicos no Github, para usá-lo basta clonar este repositório, alterar as configurações no arquivo ```package.json``` e implantá-lo em uma plataforma como o [ZEIT](https://zeit.co/) por exemplo.
-
-Implementei um sistema de cache para otimizar o tempo de resposta do serviço, a duração do cache pode ser configurada.
-
-As configurações estão na seção ```repo``` do arquivo ```package.json```:
+Uso este micro serviço para listar meus projetos no Github, pode ser configurado e executado em uma plataforma como o [ZEIT](https://zeit.co/) por exemplo. O sistema de cache para melhorar o tempo de resposta do serviço pode ser configurado na seção ```repo``` do arquivo ```package.json```:
 
 ```json
 "repo": {
@@ -13,7 +9,9 @@ As configurações estão na seção ```repo``` do arquivo ```package.json```:
 }
 ```
 
-* username: nome de usuário Github
+**Configurações:**
+
+* username: usuário Github
 * duration: duração do cache em minutos
 
 
